@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project: Calorie Calculator </title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet" />
+    <script type="application/javascript" src="jquery.js" charset="utf-8"></script>
+  </head>
+
+<body>
+  <!--Calorie Calculator Form-->
+  <h1>Calorie Calculator</h1>
+  <form id="calculator">
+  <br>
+    <div>
+      <label for="weight">Enter your current weight in pounds</label>
+      <input type="number" placeholder="pounds" id="weight" name="weight" />
+    </div>
+  <br>
+    <div>
+      <label for="height">Enter your  height in inches</label>
+      <input type="number" placeholder="inches" id="height" name="height" />
+    </div>
+  <br>
+    <div>
+      <label for="age">Enter your  age in years</label>
+      <input type="number" placeholder="years" id="age" name="age" />
+    </div>
+  <br>
+    <div>
+      <label for="gender">Male or Female?</label>
+      <select name="gender" id="gender">
+        <option value="" disabled="disabled" selected="selected">--Choose--</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="gainorlose">Do you want to gain or lose weight?</label>
+      <select name="gainorlose" id="gainorlose">
+        <option value="" disabled="disabled" selected="selected">--Choose--</option>
+          <option value="gain">gain</option>
+          <option value="lose">lose</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="activity">Are you active or inactive?</label>
+      <select name="activity" id="activity">
+        <option value="" disabled="disabled" selected="selected">--Choose--</option>
+          <option value="active">active</option>
+          <option value="inn">innactive</option>
+      </select>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Submit Form" />
+      </div>
+      <br>
+  </form>
+  <br>
+  <!--Calorie Calculator Form Ouput-->
+  <div id="calorie-output"></div>
+  <br>
+    <!--Food Calorie Counter Form -->
+    <h1> Food Item Calorie Counter</h1>
+    <form id="veggie">
+      <br>
+      <div>
+      <label for="vegetable">vegetable</label>
+      <select name="vegetable" id="vegetable">
+        <option value="" disabled="disabled" selected="selected">--Choose--</option>
+        <option value="beef">beef</option>
+        <option value="chicken">chicken</option>
+        <option value="ham">ham</option>
+        <option value="pork">pork</option>
+        <option value="turkey">turkey</option>
+        <option value="apple">apple</option>
+        <option value="avocado">avocado</option>
+        <option value="banana">banana</option>
+        <option value="blueberries">blueberries</option>
+        <option value="dates">dates</option>
+        <option value="guava">guava</option>
+        <option value="lemon">lemon</option>
+        <option value="mango">mango</option>
+        <option value="peach">peach</option>
+        <option value="pineapple">pineapple</option>
+        <option value="plum">plum</option>
+        <option value="raisins">raisins</option>
+        <option value="arugula">arugula</option>
+        <option value="artichoke">artichoke</option>
+        <option value="asparagus">asparagus</option>
+        <option value="broccoli">broccoli</option>
+        <option value="cabbage">cabbage</option>
+        <option value="carrot">carrot</option>
+        <option value="cauliflower">cauliflower</option>
+        <option value="mushrooms">mushrooms</option>
+        <option value="okra">okra</option>
+        <option value="onion">onion</option>
+      </select>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Submit Form" />
+      </div>
+      <br>
+  </form>
+  <br>
+  <!--Food Calorie Counter Form output-->
+  <div class = "vegwrapper">
+    <div id = "result-one" ></div>
+    <div id = "result-two" ></div>
+  </div>
+
+  <script type="application/javascript" src="main.js" charset="utf-8"></script>
+  <script type="application/javascript" src="ajax.js" charset="utf-8"></script>
+</body>
+</html>

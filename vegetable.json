@@ -1,0 +1,111 @@
+[
+  {
+    "name": "beef",
+    "calorie": 407
+  },
+  {
+    "name": "chicken",
+    "calorie": 305
+  },
+  {
+    "name": "ham",
+    "calorie": 236
+  },
+  {
+    "name": "pork",
+    "calorie": 363
+  },
+  {
+    "name": "turkey",
+    "calorie": 7205
+  },
+  {
+    "name": "apple",
+    "calorie": 95
+  },
+  {
+    "name": "avocado",
+    "calorie": 320
+  },
+  {
+    "name": "banana",
+    "calorie": 111
+  },
+  {
+    "name": "blueberries",
+    "calorie": 84
+  },
+  {
+    "name": "dates",
+    "calorie": 20
+  },
+  {
+    "name": "guava",
+    "calorie": 37
+  },
+  {
+    "name": "lemon",
+    "calorie": 17
+  },
+  {
+    "name": "mango",
+    "calorie": 202
+  },
+  {
+    "name": "peach",
+    "calorie": 59
+  },
+  {
+    "name": "pineapple",
+    "calorie": 453
+  },
+  {
+    "name": "plum",
+    "calorie": 30
+  },
+  {
+    "name": "raisins",
+    "calorie": 434
+  },
+  {
+    "name": "arugula",
+    "calorie": 1
+  },
+  {
+    "name": "artichoke",
+    "calorie": 60
+  },
+  {
+    "name": "asparagus",
+    "calorie": 2
+  },
+  {
+    "name": "broccoli",
+    "calorie": 207
+  },
+  {
+    "name": "cabbage",
+    "calorie": 227
+  },
+  {
+    "name": "carrot",
+    "calorie": 25
+  },
+  {
+    "name": "cauliflower",
+    "calorie": 3
+  },
+  {
+    "name": "mushrooms",
+    "calorie": 1
+  },
+  {
+    "name": "okra",
+    "calorie": 4
+  },
+  {
+    "name": "onion",
+    "calorie": 34
+  }
+  
+]
